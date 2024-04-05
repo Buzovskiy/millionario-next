@@ -1,0 +1,30 @@
+/*разбораться почему подключение шрифта конфликтует с подключением фонового изображения*/
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");*/
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #080C10;
+    color: #C18756;
+    font-family: var(--montserrat-font);
+}
+
+.btn {
+    color: #F9DC90;
+    background-image: url("../public/img/btn-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 74px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.btn:hover{
+    background-color: #212f3d;
+}
