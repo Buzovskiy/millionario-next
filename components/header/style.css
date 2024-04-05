@@ -1,0 +1,100 @@
+.header .menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    z-index: 3;
+}
+
+.header .logo-wrapper {
+    width: 174px;
+}
+
+.header .menu > ul {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    align-self: flex-end;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+.header .menu-mobile-wrapper {
+    display: none;
+}
+
+.header ul.mainmenu {
+    text-align: left;
+}
+
+.header ul.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+/*.header ul.mainmenu li a {*/
+/*    color: #eee;*/
+/*    display: block;*/
+/*    padding: 20px 12px;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 14px;*/
+/*    font-family: 'MariadProSemiBold', sans-serif;*/
+/*}*/
+
+.header ul.mainmenu li:hover > a,
+.header ul.mainmenu li.active > a {
+    color: #F9DC90;
+}
+
+.header ul.mainmenu li ul {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 200px;
+    background: #212f3d none repeat scroll 0 0;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding: 10px 20px;
+}
+
+.header ul.mainmenu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 100%;
+}
+
+.header ul.mainmenu li ul li {
+    display: block;
+}
+
+.header ul.mainmenu li ul li:last-child {
+    border-bottom: 0 solid #eee;
+}
+
+.header ul.mainmenu li ul li a {
+    /*color: #001238;*/
+    padding: 8px 0;
+    display: block;
+    /*font-size: 14px;*/
+}
+
+@media (max-width: 1200px) {
+    .header .menu {
+        display: none;
+    }
+
+    .header .menu-mobile-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .menu-mobile-wrapper .logo-wrapper {
+        margin-left: -46px;
+    }
+}

@@ -12,7 +12,7 @@ body{
     font-family: var(--montserrat-font);
 }
 
-.btn {
+.mil-btn {
     color: #F9DC90;
     background-image: url("../public/img/btn-bg.png");
     display: flex;
@@ -25,6 +25,20 @@ body{
     transition: 0.25s;
 }
 
-.btn:hover{
-    background-color: #212f3d;
+.mil-btn:hover{
+    background-color: #212f3d!important;
+}
+
+.section_70{
+    padding: 70px 0;
+}
+
+.error{
+    color: red;
+}
+
+.asterisk:after {
+    color: red;
+    content: "*";
+    margin-left: 3px;
 }

@@ -1,0 +1,54 @@
+/* ===================== PAGE TITLE ======================*/
+.gauto-breadcromb-area {
+  background: url(../../public/img/breadcromb.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.gauto-breadcromb-area:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.72) none repeat scroll 0 0;
+  z-index: -1;
+}
+
+.breadcromb-box {
+  text-align: center;
+}
+
+.breadcromb-box h3 {
+  font-size: 40px;
+  color: #F9DC90;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.breadcromb-box li {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 16px;
+}
+
+.breadcromb-box li svg {
+  //fill: $color-orange;
+  margin-right: 2px;
+}
+@media (max-width: 767px) {
+  .breadcromb-box h3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .breadcromb-box h3 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,66 @@
+.hero .row-wrapper {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    position: relative;
+}
+
+.hero .tagline {
+    font-family: var(--dance-font);
+    font-size: 73px;
+    margin: 90px 0;
+    color: #F9DC90;
+    margin-top: 60px;
+}
+
+.hero .mil-btn {
+    margin: 50px 0;
+}
+
+.hero .hero__contacts p {
+    margin-bottom: 20px;
+}
+
+.hero .hero__contacts a {
+    color: #F9DC90;
+    font-size: 30px;
+}
+
+.hero .hero__man {
+    position: absolute;
+    right: 0;
+    top: -267px;
+    border: solid 1px red;
+    z-index: 1;
+}
+
+.hero .description{
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 1200px) {
+    .hero .hero__man{
+        display: none;
+    }
+    .hero .row-wrapper {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero .tagline {
+        margin: 50px 0;
+        font-size: 50px;
+    }
+
+    .hero .mil-btn {
+        margin: 50px 0;
+        display: inline-flex;
+        margin-top: 0px;
+    }
+
+    .hero .hero__contacts {
+        text-align: center;
+    }
+
+}

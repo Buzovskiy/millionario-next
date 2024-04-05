@@ -1,0 +1,77 @@
+/* ===================== APPLY-FOR ======================*/
+.checkout-page-area{
+  background: white;
+}
+
+.checkout-page-area .mil-btn{
+  background-color: #080C10;
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.checkout-left-box h3 {
+  font-size: 23px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: block;
+  line-height: 45px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0ff;
+  font-family: 'MariadProSemiBold', sans-serif;
+}
+
+.checkout-left-box form .checkout-form {
+  margin-top: 15px;
+}
+
+.checkout-left-box form input {
+  width: 100%;
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  height: 45px;
+  color: #111;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.checkout-left-box form input[type=radio],
+.checkout-left-box form input[type=checkbox] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.checkout-left-box form textarea {
+  width: 100%;
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  height: 135px;
+  color: #111;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.checkout-left-box form input:focus {
+  border: 2px solid black;
+}
+
+.checkout-left-box form label {
+  color: #001238;
+}
+
+.apply-for .choices label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  input[type=text] {
+    margin-left: 10px;
+  }
+}
+
+.apply-for .action-btn{
+  text-align: center;
+}
+
