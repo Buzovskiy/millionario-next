@@ -1,9 +1,12 @@
 import ApplyFor from "@/components/ApplyFor";
+import {Suspense} from "react";
 
 
 const ApplyForPage = () => {
    return (
-      <ApplyFor component='ApplyForFormShort' />
+      <Suspense fallback={''}>
+         <ApplyFor component='ApplyForFormShort'/>
+      </Suspense>
    )
 }
 
