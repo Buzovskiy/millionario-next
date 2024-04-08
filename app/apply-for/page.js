@@ -1,12 +1,12 @@
-import MobileMenu from "@/components/MobileMenu";
-import Link from "next/link";
-import Image from "next/image";
 import ApplyFor from "@/components/ApplyFor";
+import {Suspense} from "react";
 
 
 const ApplyForPage = () => {
    return (
-      <ApplyFor component='ApplyForFormLong' />
+      <Suspense fallback={''}>
+         <ApplyFor component='ApplyForFormLong' />
+      </Suspense>
    )
 }
 

@@ -11,7 +11,7 @@ const Hero = () => {
                <div className="description">
                   <div>Ласкаво просимо до бізнес-клубу Millionario</div>
                   <div className="tagline">Iспанська ДНК <br/>для бiзнесу</div>
-                  <Link href="/" className="mil-btn">подати заявку</Link>
+                  <Link href="/apply-for-short" className="mil-btn">подати заявку</Link>
                   <div className="hero__contacts">
                      <p>Ваш успiх — у вашому оточеннi!</p>
                      <p><a className="phone" href="tel:+34613705442">+34 613 705 442</a></p>
