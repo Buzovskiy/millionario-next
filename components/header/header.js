@@ -38,7 +38,7 @@ const Header = () => {
                   </Link>
                </div>
                <ul className="mainmenu">
-                  <li><Link href="/">Про нас</Link></li>
+                  <li><Link href="/about-us">Про нас</Link></li>
                   <li>
                      <Link href="#">Заходи</Link>
                      <ul>
@@ -48,10 +48,10 @@ const Header = () => {
                         <li><Link href="/forum/2024-february-09">9 лютого 2024 р.</Link></li>
                      </ul>
                   </li>
-                  <li><Link href="/">Резиденти</Link></li>
+                  <li><Link href="/residents">Резиденти</Link></li>
                   <li><Link href="/">Клубна карта</Link></li>
-                  <li><Link href="/">Анкета</Link></li>
-                  <li><Link href="/">Контакти</Link></li>
+                  <li><Link href="/apply-for">Анкета</Link></li>
+                  <li><Link href="/contacts">Контакти</Link></li>
                </ul>
             </div>
          </div>

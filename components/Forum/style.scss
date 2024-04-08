@@ -1,0 +1,197 @@
+//buy event popup
+//@import url('https://buy.ticketforevent.com/css/embreg.css');
+$color-dark-blue: #1C1A72;
+$color-light-blue: rgb(16, 37, 152, 0.8);
+$color-orange: #C18756;
+
+.epts-cb-green2 {
+  font-family: "MariadProSemiBold", sans-serif;
+  display: inline-block !important;
+  zoom: 1 !important;
+  border-radius: 5px !important;
+  border-style: none !important;
+  border-width: 0 !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
+  text-shadow: none;
+  background-color: $color-dark-blue;
+  color: #fff !important;
+  border-color: #0d8547 !important;
+  font-size: 30px;
+  padding: 20px 23px;
+  @media (max-width: 1500px) {
+    font-size: 24px;
+    padding: 24px 20px;
+  }
+  @media (max-width: 991px) {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 767px) {
+    font-size: 18px;
+    padding: 13px 20px;
+    margin: 0;
+  }
+}
+
+.epts-cb-green2:hover, .epts-cb-green2:focus {
+  background-color: $color-orange;
+  border-color: #14ab66 !important;
+  color: #fff !important;
+}
+
+//buy event popup end
+
+
+.section_70.forum {
+  padding: 0;
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  &.mobile {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+    }
+
+    .btn-wrapper-mobile {
+      position: relative;
+
+      .epts-cb-green2 {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+.forum .gauto-btn.gauto-btn__event-3,
+.gauto-slider-area .gauto-btn.gauto-btn__event-3 {
+  display: flex !important;
+  width: 378px;
+  height: 64px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(0deg, #F68622 0%, #FACD31 57.81%), #C18756;
+  font-size: 30px;
+  font-weight: 700 !important;
+  line-height: 30px; /* 100% */
+  text-transform: uppercase;
+  color: #1C1A72 !important;
+  @media (max-width: 1300px) {
+    font-size: 24px;
+    width: 300px;
+    height: 56px;
+  }
+  @media (max-width: 767px) {
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+  }
+}
+
+.forum {
+  img {
+    width: 100%;
+  }
+
+  .btn-wrapper {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/img/forum-button-bg.jpg');
+    height: 436px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    @media (max-width: 1500px) {
+      height: 300px;
+    }
+    @media (max-width: 991px) {
+      background-size: 400%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    &__contacts {
+      font-size: 33px;
+      line-height: normal;
+      color: $color-dark-blue;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 19%;
+      transform: translate(0, -50%);
+      @media (max-width: 1500px) {
+        font-size: 26px;
+        left: 15%;
+      }
+      @media (max-width: 1500px) {
+        left: 7%;
+      }
+      @media (max-width: 991px) {
+        position: static;
+        transform: none;
+      }
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .btn-wrapper .gauto-btn {
+    background-color: $color-dark-blue;
+    font-size: 30px;
+    padding: 28px 20px;
+    @media (max-width: 1500px) {
+      font-size: 24px;
+      padding: 24px 20px;
+    }
+    @media (max-width: 767px) {
+      font-size: 18px;
+      padding: 13px 20px;
+    }
+
+    &:hover {
+      background-color: $color-orange;
+    }
+  }
+
+  &.event-2 {
+    .forum-invite-wrapper {
+      position: relative;
+    }
+
+    .gauto-btn {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+  }
+}
+
+.section_70.forum.event-2024-02-09 video {
+  position: absolute;
+  z-index: 1;
+  right: 150px;
+  height: 65%;
+  transform: translate(0, 30%);
+}
+
+.section_70.forum.event-2024-02-09-mob video {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+}

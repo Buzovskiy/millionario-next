@@ -7,8 +7,8 @@ a{
 }
 
 body{
-    background-color: #080C10;
-    color: #C18756;
+    background-color: #080C10!important;
+    color: #C18756!important;
     font-family: var(--montserrat-font);
 }
 
@@ -41,4 +41,27 @@ body{
     color: red;
     content: "*";
     margin-left: 3px;
+}
+
+.site-heading {
+  margin-bottom: 30px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-heading h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.site-heading h2 {
+  font-size: 30px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
 }

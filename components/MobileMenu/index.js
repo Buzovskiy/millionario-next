@@ -10,13 +10,13 @@ const menus = [
    {
       id: 1,
       title: "Про нас",
-      link: "/about",
+      link: "/about-us",
    },
 
    {
       id: 2,
       title: "Заходи",
-      link: "/apply-for",
+      link: "#",
       submenu: [
          {
             id: 501,
@@ -44,7 +44,7 @@ const menus = [
    {
       id: 3,
       title: "Резиденти",
-      link: "/contact",
+      link: "/residents",
    },
 
    {
@@ -56,14 +56,14 @@ const menus = [
    {
       id: 5,
       title: "Анкета",
-      link: "#",
+      link: "/apply-for",
 
    },
 
    {
       id: 6,
       title: "Контакти",
-      link: "/page-in-dev",
+      link: "/contacts",
    },
 
    // {

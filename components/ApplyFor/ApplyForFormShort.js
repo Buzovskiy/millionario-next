@@ -18,8 +18,8 @@ class ApplyForFormShort extends ApplyForForm {
          <Fragment>
             <Col sm={12}>
                <div className="checkout-left-box">
-                  <h3>{t("apply_for_page.anketa_of_cadidate")}</h3>
-                  <p>{t("apply_for_page.the_information_is_confidential")}</p>
+                  <h3>Анкета кандидата у бізнес-клуб</h3>
+                  <p>Інформацію, яку ви надаєте, суворо конфіденційна!</p>
                   <form>
                      <Row className="checkout-form">
                         <Col>{this.renderFormErrors()}</Col>
@@ -27,7 +27,7 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col md={6}>
                            <label htmlFor="name23"
-                                  className={"asterisk"}>{t("apply_for_page.name_and_surname")}</label>
+                                  className={"asterisk"}>Ім'я, прізвище</label>
                            <input
                               type="text"
                               name="name"
@@ -40,7 +40,7 @@ class ApplyForFormShort extends ApplyForForm {
                            {this.renderFieldError('name')}
                         </Col>
                         <Col md={6}>
-                           <label htmlFor="phone" className={"asterisk"}>{t("car_booking.phn")}</label>
+                           <label htmlFor="phone" className={"asterisk"}>Ваш номер телефону</label>
                            <input
                               type="text"
                               name="phone_number"
@@ -56,7 +56,7 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col md={6}>
                            <label htmlFor="where_you_live"
-                                  className={"asterisk"}>{t("apply_for_page.where_you_live")}</label>
+                                  className={"asterisk"}>Місце проживання (місто)</label>
                            <input
                               type="text"
                               name="where_you_live"
@@ -70,7 +70,7 @@ class ApplyForFormShort extends ApplyForForm {
                         </Col>
                         <Col md={6}>
                            <label htmlFor="kind_of_business"
-                                  className={"asterisk"}>{t("apply_for_page.kind_of_business")}</label>
+                                  className={"asterisk"}>Бізнес/ніша</label>
                            <input
                               type="text"
                               name="kind_of_business"
@@ -85,7 +85,7 @@ class ApplyForFormShort extends ApplyForForm {
                      </Row>
                      <Row className="checkout-form">
                         <Col md={6}>
-                           <label htmlFor="websites_reference">{t("apply_for_page.websites_reference")}</label>
+                           <label htmlFor="websites_reference">Посилання на сайт(и) компанії</label>
                            <input
                               type="text"
                               name="websites_reference"
@@ -97,7 +97,7 @@ class ApplyForFormShort extends ApplyForForm {
                            {this.renderFieldError('websites_reference')}
                         </Col>
                         <Col md={6}>
-                           <label htmlFor="hobby">{t("apply_for_page.hobby")}</label>
+                           <label htmlFor="hobby">Хобі</label>
                            <input
                               type="text"
                               name="hobby"
@@ -112,7 +112,7 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col sm={12}>
                            <label htmlFor="expectations_from_club"
-                                  className={"asterisk"}>{t("apply_for_page.expectations_from_club")}</label>
+                                  className={"asterisk"}>Сподівання від клубу</label>
                            <input
                               type="text"
                               name="expectations_from_club"
@@ -128,7 +128,7 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col sm={12}>
                            <label htmlFor="your_skills"
-                                  className={"asterisk"}>{t("apply_for_page.your_skills")}</label>
+                                  className={"asterisk"}>Чим Ви можете бути корисним для одноклубників(ваші компетенції, навички, зв'язки)?</label>
                            <input
                               type="text"
                               name="your_skills"
@@ -144,28 +144,28 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col md={12} className={"choices"}>
                            <label
-                              className={"asterisk"}>{t("apply_for_page.participation_in_common_projects")}</label>
+                              className={"asterisk"}>Чи готові ви брати участь у спільних проектах (інвестиції, партнерство, позики)?</label>
                            <label htmlFor="part0"><input onChange={this.handleChange} type="checkbox"
                                                          name="participation" id="part0"
-                                                         value='0'/>{t('apply_for_page.no')}</label>
+                                                         value='0'/>ні</label>
                            <label htmlFor="part1"><input onChange={this.handleChange} type="checkbox"
                                                          name="participation" id="part1"
-                                                         value='1'/>{t('apply_for_page.yes_as_investor')}
+                                                         value='1'/>так, в якості інвестора
                            </label>
                            <label htmlFor="part2"><input onChange={this.handleChange} type="checkbox"
                                                          name="participation" id="part2"
-                                                         value='2'/>{t('apply_for_page.yes_as_partner')}
+                                                         value='2'/>так, в якості партнера
                            </label>
                            <label htmlFor="part3"><input onChange={this.handleChange} type="checkbox"
                                                          name="participation" id="part3"
-                                                         value='3'/>{t('apply_for_page.want_investments')}
+                                                         value='3'/>хочу залучити інвестиції, під відсоток чи частку у компанії
                            </label>
                            <label htmlFor="part4"><input onChange={this.handleChange} type="checkbox"
                                                          name="participation" id="part4"
-                                                         value='4'/>{t('apply_for_page.have_startup')}</label>
+                                                         value='4'/>є стартап, шукаю інвесторів/партнерів</label>
                            <label htmlFor="part5">
                               <input onChange={this.handleChange} type="checkbox" name="participation"
-                                     id="part5" value='5'/>{t('apply_for_page.other')}
+                                     id="part5" value='5'/>інше:
                               <input
                                  onChange={this.handleChange}
                                  type="text"
@@ -177,7 +177,7 @@ class ApplyForFormShort extends ApplyForForm {
                      </Row>
                      <Row className="checkout-form">
                         <Col sm={12} md={6}>
-                           <label htmlFor="telegram_nick">{t("apply_for_page.telegram_nick")}</label>
+                           <label htmlFor="telegram_nick">Ваш нік у Телеграм</label>
                            <input
                               type="text"
                               name="telegram_nick"
@@ -189,7 +189,7 @@ class ApplyForFormShort extends ApplyForForm {
                            {this.renderFieldError('telegram_nick')}
                         </Col>
                         <Col sm={12} md={6}>
-                           <label htmlFor="your_instagramm">{t("apply_for_page.your_instagramm")}</label>
+                           <label htmlFor="your_instagramm">Ваш обліковий запис в інстаграм</label>
                            <input
                               type="text"
                               name="your_instagramm"
@@ -203,7 +203,7 @@ class ApplyForFormShort extends ApplyForForm {
                      </Row>
                      <Row className="checkout-form">
                         <Col sm={12} md={6}>
-                           <label htmlFor="your_fb">{t("apply_for_page.your_fb")}</label>
+                           <label htmlFor="your_fb">Ваш обліковий запис у ФБ</label>
                            <input
                               type="text"
                               name="your_fb"
@@ -218,14 +218,14 @@ class ApplyForFormShort extends ApplyForForm {
                      <Row className="checkout-form">
                         <Col md={12} className={"choices"}>
                            <label
-                              className={"asterisk"}>{t("apply_for_page.personal_data_agreement")}</label>
+                              className={"asterisk"}>Згода на обробку даних</label>
                            <label htmlFor="personal_data_agreement">
                               <input onChange={this.handleChange}
                                      type="checkbox"
                                      name="personal_data_agreement"
                                      id="personal_data_agreement"
                                      value='0'/>
-                              {t('apply_for_page.agree')}</label>
+                              згоден</label>
                            {this.renderFieldError('personal_data_agreement')}
                         </Col>
                      </Row>
@@ -236,8 +236,8 @@ class ApplyForFormShort extends ApplyForForm {
                <div className="booking-right">
                   <div className="action-btn">
                      <Link href="/" onClick={(e) => this.handleSubmit(e, this.state.formFields)}
-                           className="gauto-btn">
-                        {t("send")}
+                           className="mil-btn">
+                        Відправити
                      </Link>
                   </div>
                </div>
