@@ -1,0 +1,22 @@
+.business-events {
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    //background-position: center;
+    //background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 648px;
+  }
+
+  @media (max-width: 1200px) {
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

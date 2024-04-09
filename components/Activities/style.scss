@@ -1,0 +1,19 @@
+.activities {
+  .activities-list {
+    column-count: 2;
+    text-transform: uppercase;
+  }
+  .activities-list li{
+    list-style-type: disc;
+    line-height: 1.8;
+  }
+  .activities-list span{
+    text-transform: none;
+  }
+  .sub-heading{
+    font-size: 30px;
+    color: #F9DC90;
+    margin: 40px;
+    text-align: center;
+  }
+}
