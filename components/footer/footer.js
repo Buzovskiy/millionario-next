@@ -2,7 +2,7 @@ const Footer = () => {
    return (
       <div className="container">
          <div className="row">
-            footer
+            {/*footer*/}
          </div>
       </div>
    )

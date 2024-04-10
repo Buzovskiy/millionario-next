@@ -1,0 +1,18 @@
+.chair {
+  .chair__wrapper{
+    width: 688px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .chair__wrapper .mil-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  @media (max-width: 1200px) {
+    .chair__wrapper{
+      width: 100%;
+    }
+  }
+}

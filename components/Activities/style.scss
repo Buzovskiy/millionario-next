@@ -3,17 +3,58 @@
     column-count: 2;
     text-transform: uppercase;
   }
-  .activities-list li{
+
+  .activities-list li {
     list-style-type: disc;
     line-height: 1.8;
   }
-  .activities-list span{
+
+  .activities-list span {
     text-transform: none;
   }
-  .sub-heading{
+
+  .sub-heading {
     font-size: 30px;
     color: #F9DC90;
-    margin: 40px;
+    margin: 50px 0;
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  .video-wrapper {
+    position: relative;
+  }
+
+  .video-wrapper .mil-btn {
+    position: absolute;
+    bottom: 50px;
+    background-color: #080C10;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .activities-list-welcome {
+    column-count: 2;
+  }
+
+  .activities-list-welcome li {
+    list-style-type: disc;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 1200px){
+    .activities-list,
+    .activities-list-welcome{
+      column-count: 1;
+    }
+
+    .sub-heading{
+      font-size: 20px;
+    }
+
+    .activities-list-welcome li{
+      margin-bottom: 20px;
+    }
   }
 }

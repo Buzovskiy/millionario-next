@@ -5,33 +5,31 @@ $color-light-blue: rgb(16, 37, 152, 0.8);
 $color-orange: #C18756;
 
 .epts-cb-green2 {
-  font-family: "MariadProSemiBold", sans-serif;
-  display: inline-block !important;
-  zoom: 1 !important;
-  border-radius: 5px !important;
-  border-style: none !important;
-  border-width: 0 !important;
-  text-decoration: none !important;
-  font-weight: bold !important;
-  line-height: 1 !important;
-  text-shadow: none;
-  background-color: $color-dark-blue;
-  color: #fff !important;
-  border-color: #0d8547 !important;
-  font-size: 30px;
-  padding: 20px 23px;
-  @media (max-width: 1500px) {
-    font-size: 24px;
-    padding: 24px 20px;
-  }
-  @media (max-width: 991px) {
-    margin-bottom: 20px;
-  }
-  @media (max-width: 767px) {
-    font-size: 18px;
-    padding: 13px 20px;
-    margin: 0;
-  }
+  //font-family: "MariadProSemiBold", sans-serif;
+  //display: inline-block !important;
+  //zoom: 1 !important;
+  //border-style: none !important;
+  //border-width: 0 !important;
+  //text-decoration: none !important;
+  //font-weight: bold !important;
+  //line-height: 1 !important;
+  //text-shadow: none;
+  //color: #fff !important;
+  //border-color: #0d8547 !important;
+  //font-size: 30px;
+  //padding: 20px 23px;
+  //@media (max-width: 1500px) {
+  //  font-size: 24px;
+  //  padding: 24px 20px;
+  //}
+  //@media (max-width: 991px) {
+  //  margin-bottom: 20px;
+  //}
+  //@media (max-width: 767px) {
+  //  font-size: 18px;
+  //  padding: 13px 20px;
+  //  margin: 0;
+  //}
 }
 
 .epts-cb-green2:hover, .epts-cb-green2:focus {
@@ -171,7 +169,7 @@ $color-orange: #C18756;
       position: relative;
     }
 
-    .gauto-btn {
+    .gauto-btn, .mil-btn {
       position: absolute;
       left: 50%;
       top: 50%;

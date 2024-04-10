@@ -29,10 +29,20 @@ const Activities = () => {
                   <video autoPlay muted loop className='promo-video'>
                      <source src="/video/promo-video.mp4" type="video/mp4"/>
                   </video>
-                  <Link style={{position: 'absolute'}} href="/apply-for-short" className="gauto-btn">Подати
+                  <Link style={{position: 'absolute'}} href="/apply-for-short" className="mil-btn">Подати
                      заявку</Link>
                </div>
-               Block video
+               <div className="sub-heading">
+                  Ласкаво просимо до бізнес-клубу Millionario!
+               </div>
+               <ul className="activities-list-welcome">
+                  <li>Ми стартували з маленької групи однодумців, для того, щоб зростати разом покращуватись і допомагати один одному</li>
+                  <li>Зараз нас об'єднує понад 100 резидентів та наш клуб швидко зростає</li>
+                  <li>Ми прагнемо рости разом, постійно вдосконалюватися та допомагати один одному у досягненні успіху</li>
+                  <li>У клубі понад 10 партнерств, що допомагають нам розвиватися та розширюватися</li>
+                  <li>Ми плануємо до кінця цього року розширити нашу спільноту до 500 підприємців по всій Іспанії</li>
+                  <li>Ми запустили онлайн бізнес-клуб з унікальними тренінгами від найкращих бізнес-вчителів, які доступні для учасників з будь-якої точки світу</li>
+               </ul>
             </div>
          </div>
       </div>

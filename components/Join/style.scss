@@ -1,0 +1,23 @@
+.join {
+  .join-items {
+    color: #F9DC90;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    grid-row-gap: 50px;
+  }
+
+  .item {
+    background: linear-gradient(180deg, rgba(59, 62, 65, 1) 0%, rgba(51, 57, 62, 1) 19%, rgba(8, 12, 16, 1) 100%);
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 1200px) {
+    .join-items {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      grid-row-gap: 30px;
+    }
+  }
+}

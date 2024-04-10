@@ -18,7 +18,7 @@ const Participants = () => {
                </div>
                <Swiper
                   grabCursor={true}
-                  slidesPerView={3}
+                  slidesPerView={1}
                   spaceBetween={10}
                   // centeredSlides={true}
                   // centeredSlides={true}
@@ -26,11 +26,11 @@ const Participants = () => {
                   // initialSlide={2}
                   // modules={[EffectCoverflow]}
                   // className="mySwiper"
-                  // breakpoints={{
-                  //    1200: {
-                  //       slidesPerView: 'auto'
-                  //    }
-                  // }}
+                  breakpoints={{
+                     992: {
+                        slidesPerView: 3
+                     }
+                  }}
                >
                   <SwiperSlide>
                      <img src="/img/participants/img_1.png" alt="Participants"/>

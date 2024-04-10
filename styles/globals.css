@@ -23,6 +23,10 @@ body {
     background-size: 100% 100%;
     border-radius: 20px;
     transition: 0.25s;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-position: center;
+    background-color: #080C10;
 }
 
 .mil-btn:hover {
@@ -71,5 +75,18 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 50px;
+    margin-top: 20px;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .mil-btn {
+        width: 250px;
+        height: 63px;
+        font-size: 18px;
+        background-size: 98% 98%;
+    }
+    .section-heading{
+        font-size: 22px;
+    }
 }
