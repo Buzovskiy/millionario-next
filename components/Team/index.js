@@ -17,35 +17,35 @@ const Team = () => {
                </Col>
             </Row>
             <Row>
-               <Col lg={3} sm={6}>
-                  <div className="single-driver">
-                     <div className="driver-image">
-                        <Image
-                           src="/img/members/member3.jpg"
-                           width={0}
-                           height={0}
-                           sizes="100vw"
-                           style={{width: '100%', height: 'auto'}}
-                           alt="Member"
-                        />
-                     </div>
-                     <div className="driver-text">
-                        <div className="driver-name">
-                           <h3>Любомир</h3>
-                           <p className='heading'>General Manager</p>
-                           <p className='description'>
-                              Філософія життя: якщо не пробувати зробити більше ніж можливо, то й ніколи не зробиш все
-                              те, на що здатен.
-                              11 років в банківській сфері в сегменті малого, середнього та корпоративнорго бізнесу,
-                              керівником відділень.
-                              Співвласник равликової ферми "Ukrainian Snail Farm"
-                              Засновник стартапу Benidorm.info
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </Col>
-               <Col lg={3} sm={6}>
+               {/*<Col lg={3} sm={6}>*/}
+               {/*   <div className="single-driver">*/}
+               {/*      <div className="driver-image">*/}
+               {/*         <Image*/}
+               {/*            src="/img/members/member3.jpg"*/}
+               {/*            width={0}*/}
+               {/*            height={0}*/}
+               {/*            sizes="100vw"*/}
+               {/*            style={{width: '100%', height: 'auto'}}*/}
+               {/*            alt="Member"*/}
+               {/*         />*/}
+               {/*      </div>*/}
+               {/*      <div className="driver-text">*/}
+               {/*         <div className="driver-name">*/}
+               {/*            <h3>Любомир</h3>*/}
+               {/*            <p className='heading'>General Manager</p>*/}
+               {/*            <p className='description'>*/}
+               {/*               Філософія життя: якщо не пробувати зробити більше ніж можливо, то й ніколи не зробиш все*/}
+               {/*               те, на що здатен.*/}
+               {/*               11 років в банківській сфері в сегменті малого, середнього та корпоративнорго бізнесу,*/}
+               {/*               керівником відділень.*/}
+               {/*               Співвласник равликової ферми "Ukrainian Snail Farm"*/}
+               {/*               Засновник стартапу Benidorm.info*/}
+               {/*            </p>*/}
+               {/*         </div>*/}
+               {/*      </div>*/}
+               {/*   </div>*/}
+               {/*</Col>*/}
+               <Col lg={4} sm={6}>
                   <div className="single-driver">
                      <div className="driver-image">
                         <img src="/img/members/member2.jpg" alt="Member"/>
@@ -63,7 +63,7 @@ const Team = () => {
                      </div>
                   </div>
                </Col>
-               <Col lg={3} sm={6}>
+               <Col lg={4} sm={6}>
                   <div className="single-driver">
                      <div className="driver-image">
                         <img src="/img/members/member7.jpg" alt="driver 1"/>
@@ -81,7 +81,7 @@ const Team = () => {
                      </div>
                   </div>
                </Col>
-               <Col lg={3} sm={6}>
+               <Col lg={4} sm={6}>
                   <div className="single-driver">
                      <div className="driver-image">
                         <img src="/img/members/member8.jpg" alt="driver 1"/>
