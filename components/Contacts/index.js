@@ -40,7 +40,7 @@ const Contacts = () => {
                         </div>
                         <div className="single-contact-btn">
                            <h4>Зателефонуйте нам</h4>
-                           <a href="tel:+34613705442">+34 613 705 442</a>
+                           <a href="tel:+34602452414">+34 602 45 24 14</a>
                         </div>
                         {/*<div className="social-links-contact">*/}
                         {/*   <h4>Follow us:</h4>*/}
@@ -212,7 +212,7 @@ const Contacts = () => {
                         вул. Академіка Вільямса, буд. 60, корп. 2, кв. 46
 
                         Контакти:
-                        +34 613 705 442
+                        +34602452414
                         legend77@ukr.net
 
                         Реквізити:

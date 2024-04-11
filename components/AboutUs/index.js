@@ -70,7 +70,7 @@ const AboutUs = () => {
                            <div className="call-info">
                               <p>Потрібна допомога?</p>
                               <h4>
-                                 <a href="tel:+34613705442">+34 613 705 442</a>
+                                 <a href="tel:+34602452414">+34 602 45 24 14</a>
                               </h4>
                            </div>
                         </div>

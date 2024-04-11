@@ -14,7 +14,7 @@ const Hero = () => {
                   <Link href="/apply-for-short" className="mil-btn">подати заявку</Link>
                   <div className="hero__contacts">
                      <p>Ваш успiх — у вашому оточеннi!</p>
-                     <p><a className="phone" href="tel:+34613705442">+34 613 705 442</a></p>
+                     <p><a className="phone" href="tel:+34613705442">+34 602 45 24 14</a></p>
                      <p>Alicante, Torrevieja, Madrid</p>
                   </div>
                </div>
