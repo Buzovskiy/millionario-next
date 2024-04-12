@@ -5,6 +5,7 @@ import "@/styles/reset.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/styles/globals.css";
 import localFont from 'next/font/local';
+import {FacebookPixel} from "@/analytics/FacebookPixel";
 
 
 const montserrat = Montserrat({
@@ -31,6 +32,7 @@ export default function RootLayout({children}) {
       <body className={`${myFont.variable} ${montserrat.variable} font-sans`}>
       <Header/>
       {children}
+      <FacebookPixel/>
       <Footer/>
       </body>
       </html>
