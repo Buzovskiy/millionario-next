@@ -1,0 +1,62 @@
+.mentors-wrapper {
+    height: 775px;
+    border: solid 1px red;
+    position: relative;
+}
+
+.mentor{
+    position: absolute;
+    /*height: 591px;*/
+    border: solid 1px green;
+}
+
+.mentor:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 353px;
+    z-index: 1;
+}
+
+.mentor:nth-child(2){
+    left: 353px;
+    top: 0;
+    width: 353px;
+    z-index: 2;
+}
+
+.mentor:nth-child(1) .description{
+        bottom: 16%;
+}
+
+.mentor:nth-child(2) .description{
+        bottom: 0%;
+}
+
+.mentor img {
+    width: 100%;
+}
+
+.description{
+    background-color: rgba(232, 245, 255, 0.2);
+    padding: 15px;
+    display: grid;
+    grid-row-gap: 10px;
+    border-radius: 36px;
+    position: absolute;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #F9DC90;
+}
+
+.role {
+    font-size: 18px;
+    color: #F9DC90;
+}
+
+.info {
+    font-size: 16px;
+    color: #C18756;
+}

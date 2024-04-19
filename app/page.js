@@ -7,6 +7,7 @@ import Join from "@/components/Join";
 import Advantages from "@/components/Advantages";
 import Chair from "@/components/Chair";
 import Partners from "@/components/Partners";
+import Mentors from "@/components/Mentors";
 
 export default function Home() {
    return (
@@ -15,6 +16,7 @@ export default function Home() {
          <Activities/>
          <BusinessEvents/>
          <Join/>
+         <Mentors/>
          <Advantages/>
          <Participants/>
          <Chair/>

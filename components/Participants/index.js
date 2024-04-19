@@ -1,14 +1,26 @@
 'use client';
 
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import './style.scss';
+import TeamMember from "@/components/Team/teamMember";
 
 const Participants = () => {
+   const [team, setTeam] = useState([]);
+
+   useEffect(() => {
+      const fetchMembers = async () => {
+         const response = await fetch(`${process.env.NEXT_PUBLIC_API_LINK}/api/members/list?active=1`);
+         const members = await response.json();
+         setTeam(members);
+      }
+      fetchMembers().catch(console.error)
+   }, []);
+
    return (
       <div className="container participants">
          <div className="row py-lg-5">
@@ -20,33 +32,23 @@ const Participants = () => {
                   grabCursor={true}
                   slidesPerView={1}
                   spaceBetween={10}
-                  // centeredSlides={true}
-                  // centeredSlides={true}
-                  // slidesPerView={1}
-                  // initialSlide={2}
-                  // modules={[EffectCoverflow]}
-                  // className="mySwiper"
                   breakpoints={{
                      992: {
                         slidesPerView: 3
                      }
                   }}
                >
-                  <SwiperSlide>
-                     <img src="/img/participants/img_1.png" alt="Participants"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                     <img src="/img/participants/img_1.png" alt="Participants"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                     <img src="/img/participants/img_1.png" alt="Participants"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                     <img src="/img/participants/img_1.png" alt="Participants"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                     <img src="/img/participants/img_1.png" alt="Participants"/>
-                  </SwiperSlide>
+                  {team.map((member) => (
+                     <SwiperSlide key={member.id}>
+                        <Image
+                           alt="Members"
+                           src={member.image_url}
+                           width={0}
+                           height={0}
+                           sizes="100vw"
+                        />
+                     </SwiperSlide>
+                  ))}
                </Swiper>
             </div>
          </div>
