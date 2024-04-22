@@ -98,6 +98,11 @@
         position: static;
     }
 
+    .mentor:nth-child(1) img {
+        position: relative;
+        z-index: 1;
+    }
+
     .mentor:nth-child(2) .description {
         bottom: 0;
         right: 0;
@@ -174,7 +179,7 @@
         bottom: 29%;
     }
 
-    .mentor:nth-child(3) .description{
+    .mentor:nth-child(3) .description {
         bottom: 30%;
     }
 }
