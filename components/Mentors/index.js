@@ -5,7 +5,7 @@ import styles from "./Mentors.module.css";
 
 const Mentors = () => {
    return (
-      <div className="container mentors">
+      <div className="container">
          <div className="row py-lg-5">
             <div className="row-wrapper">
                <div className="section-heading">

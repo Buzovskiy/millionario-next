@@ -1,6 +1,6 @@
 import {Montserrat} from "next/font/google";
 import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/Footer";
 import "@/styles/reset.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/styles/globals.css";
