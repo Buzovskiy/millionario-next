@@ -14,15 +14,13 @@ const Mentors = () => {
                <div className={styles['mentors-wrapper']}>
                   {data.map(mentor => (
                      <div className={styles.mentor}>
-                        <div>
-                           <Image
-                              alt="Mentors"
-                              src={mentor.image_url}
-                              width={0}
-                              height={0}
-                              sizes="100vw"
-                           />
-                        </div>
+                        <Image
+                           alt="Mentors"
+                           src={mentor.image_url}
+                           width={0}
+                           height={0}
+                           sizes="100vw"
+                        />
                         <div className={styles.description}>
                            <div className={styles.name}>{mentor.name}</div>
                            <div className={styles.role}>{mentor.role}</div>
