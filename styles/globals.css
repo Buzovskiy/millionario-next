@@ -1,6 +1,5 @@
 /*разбораться почему подключение шрифта конфликтует с подключением фонового изображения*/
 /*@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");*/
-
 body a {
     text-decoration: none;
     color: inherit;
@@ -30,7 +29,7 @@ body {
 }
 
 .mil-btn:hover {
-    background-color: #212f3d !important;
+    background-image: url("../public/img/btn-bg.png"), linear-gradient(90deg, rgba(12, 15, 18, 1) 0%, rgba(87, 80, 58, 1) 100%);
 }
 
 .section_70 {
@@ -80,13 +79,28 @@ body {
 }
 
 @media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+
     .mil-btn {
         width: 250px;
         height: 63px;
         font-size: 18px;
         background-size: 98% 98%;
     }
-    .section-heading{
+
+    .section-heading {
         font-size: 22px;
     }
 }
+
+@media (max-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/*.container{*/
+/*    border: solid 1px red;*/
+/*}*/

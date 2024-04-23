@@ -4,7 +4,7 @@ import './style.scss';
 const Partners = () => {
    return (
       <div className="container partners">
-         <div className="row py-lg-5">
+         <div className="row py-5">
             <div className="row-wrapper">
                <div className="section-heading">
                   Партнери

@@ -13,6 +13,16 @@
     width: 648px;
   }
 
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right{
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    color: #F9DC90;
+  }
+
   @media (max-width: 1200px) {
     .swiper-slide img {
       display: block;

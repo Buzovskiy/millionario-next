@@ -4,7 +4,7 @@ import './style.scss';
 const Chair = () => {
    return (
       <div className="container chair">
-         <div className="row py-lg-5">
+         <div className="row py-5">
             <div className="row-wrapper">
                <div className="section-heading">
                   а ТИ ВЖЕ СЕРЕД УСПIШНИХ?

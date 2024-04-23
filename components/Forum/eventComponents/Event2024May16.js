@@ -38,7 +38,7 @@ const Event2024May16 = () => {
    return (
       <>
          <div className="container forum event-2 event-2024-02-09">
-            <div className="row py-lg-5">
+            <div className="row py-5">
                <div className="forum-invite-wrapper">
                   <img src="/img/forum/event-2024-05-16/img.png" alt=""/>
                </div>

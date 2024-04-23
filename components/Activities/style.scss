@@ -37,23 +37,26 @@
     column-count: 2;
   }
 
-  .activities-list-welcome li {
-    list-style-type: disc;
-    line-height: 1.8;
+  .activities-list-welcome li:not(:last-child) {
     margin-bottom: 30px;
   }
 
-  @media (max-width: 1200px){
+  .activities-list-welcome li {
+    list-style-type: disc;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 1200px) {
     .activities-list,
-    .activities-list-welcome{
+    .activities-list-welcome {
       column-count: 1;
     }
 
-    .sub-heading{
+    .sub-heading {
       font-size: 20px;
     }
 
-    .activities-list-welcome li{
+    .activities-list-welcome li:not(:last-child) {
       margin-bottom: 20px;
     }
   }

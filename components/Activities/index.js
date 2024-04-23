@@ -4,7 +4,7 @@ import './style.scss';
 const Activities = () => {
    return (
       <div className="container activities">
-         <div className="row py-lg-5">
+         <div className="row py-5">
             <div className="row-wrapper">
                <div className="section-heading">
                   Перша МIждународна бiзнес-дiаспора в iспанii

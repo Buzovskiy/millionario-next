@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
    return (
       <div className="container hero">
-         <div className="row py-lg-5">
+         <div className="row py-5">
             <div className="row-wrapper">
                <div className="description">
                   <div>Ласкаво просимо до бізнес-клубу Millionario</div>
