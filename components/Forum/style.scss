@@ -193,3 +193,30 @@ $color-orange: #C18756;
   width: 100%;
   left: 0;
 }
+
+.btn-silver {
+  width: 378px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  background-image: url(../../public/img/forum/btn-silver.png);
+  background-size: contain;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+@media (max-width: 992px) {
+  .btn-silver {
+    width: 240px;
+    height: 60px;
+    background-size: cover;
+  }
+}
