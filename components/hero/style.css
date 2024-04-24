@@ -40,7 +40,8 @@
 
 @media (max-width: 1200px) {
     .hero .hero__man{
-        display: none;
+        opacity: 0.6;
+        right: -22%;
     }
     .hero .row-wrapper {
         text-align: center;
