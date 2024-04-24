@@ -1,6 +1,7 @@
 .hero .row-wrapper {
     font-size: 20px;
     text-transform: uppercase;
+    overflow-x: hidden;
 }
 
 .hero .tagline {
