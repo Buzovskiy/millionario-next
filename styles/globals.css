@@ -1,5 +1,14 @@
 /*разбораться почему подключение шрифта конфликтует с подключением фонового изображения*/
 /*@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");*/
+html{
+    overflow: auto;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+
 body a {
     text-decoration: none;
     color: inherit;
