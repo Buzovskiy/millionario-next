@@ -46,7 +46,7 @@ const Header = () => {
                         <li><Link href="/forum/2023-november-01">01 листопада 2023 р.</Link></li>
                         <li><Link href="/forum/2023-november-21">21 листопада 2023 р.</Link></li>
                         <li><Link href="/forum/2024-february-09">9 лютого 2024 р.</Link></li>
-                        <li><Link href="/forum/2024-may-16">16 травня 2024 р.</Link></li>
+                        <li><Link href="/forum/2024-october-11">11 октября 2024 р.</Link></li>
                      </ul>
                   </li>
                   <li><Link href="/residents">Резиденти</Link></li>
