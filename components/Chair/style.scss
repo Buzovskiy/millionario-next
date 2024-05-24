@@ -1,18 +1,33 @@
 .chair {
-  .chair__wrapper{
-    width: 688px;
+  .chair__wrapper {
+    //width: 688px;
     margin: 0 auto;
     position: relative;
   }
-  .chair__wrapper .mil-btn{
+
+  .chair__wrapper .mil-btn {
     position: absolute;
-    bottom: 0;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%, 0);
   }
+
+  .chair__wrapper .mobile {
+    display: none;
+  }
+
   @media (max-width: 1200px) {
-    .chair__wrapper{
+    .chair__wrapper {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .chair__wrapper .desktop {
+      display: none;
+    }
+    .chair__wrapper .mobile {
+      display: block;
     }
   }
 }
