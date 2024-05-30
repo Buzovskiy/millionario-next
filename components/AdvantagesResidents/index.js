@@ -22,7 +22,7 @@ const AdvantagesResidents = () => {
          <div className="row py-5">
             <div className="row-wrapper">
                <div className="section-heading">
-                  Переваги для резидентів бізнес-клубу MILLONARIO
+                  Переваги для резидентів бізнес-клубу MILLIONARIO
                </div>
                <div className="advantages-residents__wrapper">
                   {items.map(item => (
