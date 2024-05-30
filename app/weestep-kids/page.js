@@ -8,7 +8,7 @@ const Page = () => {
          quantity: 11,
          sizeId: 77102,
       }
-      axios.put('https://api.weestep-kids.es/es/v1/basket/', data)
+      axios.put('https://api.weestep-kids.es/es/v1/basket/', data, {withCredentials: true})
          .then(function (response) {
             console.log(response);
          })
