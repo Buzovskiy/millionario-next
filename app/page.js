@@ -8,6 +8,7 @@ import Advantages from "@/components/Advantages";
 import Chair from "@/components/Chair";
 import Partners from "@/components/Partners";
 import Mentors from "@/components/Mentors";
+import AdvantagesResidents from "@/components/AdvantagesResidents";
 
 export default function Home() {
    return (
@@ -20,6 +21,7 @@ export default function Home() {
          <Advantages/>
          <Participants/>
          <Chair/>
+         <AdvantagesResidents/>
          <Partners/>
       </main>
    );
