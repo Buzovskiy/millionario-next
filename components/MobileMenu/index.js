@@ -40,8 +40,8 @@ const menus = [
          },
          {
             id: 505,
-            title: "21 червня 2024 р.",
-            link: "/forum/2024-june-21",
+            title: "20 вересня 2024 р.",
+            link: "/forum/2024-september-20",
          },
          {
             id: 506,

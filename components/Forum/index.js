@@ -3,7 +3,7 @@ import Event2023November01 from "./eventComponents/Event2023November01";
 import Event2023November21 from "./eventComponents/Event2023November21";
 import Event2024February09 from "./eventComponents/Event2024February09";
 import Event2024October11 from "./eventComponents/Event2024October11";
-import Event2024June21 from "@/components/Forum/eventComponents/Event2024June21";
+import Event2024September20 from "@/components/Forum/eventComponents/Event2024September20";
 import './style.scss';
 
 const Forum = ({params}) => {
@@ -19,8 +19,8 @@ const Forum = ({params}) => {
       return <Event2024February09 />
    } else if (slug === '2024-october-11') {
       return <Event2024October11 />
-   } else if (slug === '2024-june-21') {
-      return <Event2024June21 />
+   } else if (slug === '2024-september-20') {
+      return <Event2024September20 />
    }
 };
 
